@@ -9,12 +9,46 @@ In this repository, we provide an Excel spreadsheet that can calculate the risk 
 
 If you have any questions, feel free to submit an issue or email me by zewei.shi@data61.csiro.au
 
-## Explain on assigned scores (TBC)
 
-* Adv
-* Det
-* Impact factor
 
+Note: More Case Study will be released soon...
+
+## Explain for each term
+
+* Adv: 
+
+	Human can not detect: The higher value, the more difficult for human to detect.
+
+	*  UI Feature
+		* High : UI contain high-risky deceptive features that could mislead or fool a user
+		* Medium : UI contain medium-risky deceptive features that could mislead or fool a user
+		* Low : UI contain no-risky or low-risky deceptive features that could mislead or fool a user
+
+	* Preliminary Knowledge
+		* High: No preliminary knowledge needed
+		* Medium: Some people need the preliminary knowledge
+		* Low: Lots of people need the preliminary knowledge
+
+	* Sequence
+		* High: Invloved dynamic multiple steps
+		* Medium: Invloved dynamic two steps
+		* Low: Static (A Single image)
+
+* Det: 
+
+	Model can detect: The higher value, the easier for model to detect
+
+	* Hard to detect
+	* Easy to detect
+	* Have data: There is a accuracy from the SOTA Model
+
+* Impact factor:  (True or False Question)
+
+	How serious the consequences are
+
+	* Time: Will user's time be wasted?
+	* Privacy: Will user's privacy data be leaked?
+	* Finance: WIll user's money be lost?
 
 
 ## Citing Our Work
