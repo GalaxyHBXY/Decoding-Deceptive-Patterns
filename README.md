@@ -21,7 +21,7 @@ Note: More Case Study will be released soon...
 
 Deceptive(Dark) Pattern is an interface maliciously crafted to deceive users into perform actions they **<u>did not</u>** mean to do (Di Geronimo et al., 2020).
 
-Clearly: Dark pattern is trick user into doing things that are **<u>not</u>** in their interest (Chen et al., 2023).
+Clearly: Deceptive(Dark) pattern is trick user into doing things that are **<u>not</u>** in their interest (Chen et al., 2023).
 
 
 
@@ -53,17 +53,17 @@ Clearly: Dark pattern is trick user into doing things that are **<u>not</u>** in
 
 	Human can not detect: The higher value, the more difficult for human to detect.
 
-	*  UI Feature
+	*  Deceptive UI Features
 		* High : UI contain high-risky deceptive features that could mislead or fool a user
 		* Medium : UI contain medium-risky deceptive features that could mislead or fool a user
 		* Low : UI contain no-risky or low-risky deceptive features that could mislead or fool a user
 
-	* Preliminary Knowledge
-		* High: No preliminary knowledge needed
-		* Medium: Some people need the preliminary knowledge
-		* Low: Lots of people need the preliminary knowledge
+	* Pre-Knowledges
+		* High: No preliminary knowledges needed
+		* Medium: Some people need the preliminary knowledges
+		* Low: Lots of people need the preliminary knowledges
 
-	* Sequence
+	* Sequence of activities
 		* High: Invloved dynamic multiple steps
 		* Medium: Invloved dynamic two steps
 		* Low: Static (A Single image)
@@ -74,11 +74,11 @@ Clearly: Dark pattern is trick user into doing things that are **<u>not</u>** in
 
 	* Hard to detect
 	* Easy to detect
-	* Have data: There is a accuracy from the SOTA Model
+	* Have data: There is an accurate value from the SOTA model
 
 * Impact factor:  (True or False Question)
 
-	How serious the consequences are
+	Measure how serious the consequences are
 
 	* Time: Will user's time be wasted?
 	* Privacy: Will user's privacy data be leaked?
@@ -98,7 +98,7 @@ In this section, let's take the screenshot below, a case of Privacy Zuckring, as
 
 In the figure, there are several buttons set to "On" by default and a highlighted text "Always Active", we consider that the UI has provided information to users to help them recognize that there are several cookies required by the service provider, or at least their information might be collected if they click the bottom banner "Confirm My Choices''. Therefore, we rate **<u>UI_Feature risk</u>** as **<u>low</u>** and **<u>pre-knowledge risks</u>** as **<u>medium</u>** (the user may need some basic privacy knowledge to recognize the trick). The deceptive pattern here is implemented with a static UI, thus we rate the **<u>Sequence risk</u>** as **<u>low</u>**. These factors result in an **<u>adv score of 0.22</u>**, a quite low advantage score as such deceptive pattern implementation is not hard to be identified by a human user.
 
-Meanwhile, as reported by UIGuard(Chen et al., 2023), an on-the-shelf detection tool, can **<u>achieve 0.73 F-Score</u>** on Privacy Zuckering deceptive patterns, which is a relatively high performance, comparing to other more complex patterns. We believe that such a good detection performance may related to the detection of specific UI widges and the descriptions of forced actions as they are typical and easy to identify. 
+Meanwhile, as reported by UIGuard (Chen et al., 2023), an on-the-shelf detection tool, can **<u>achieve 0.73 F-Score</u>** on Privacy Zuckering deceptive patterns, which is a relatively high performance, comparing to other more complex patterns. We believe that such a good detection performance may related to the detection of specific UI widges and the descriptions of forced actions as they are typical and easy to identify. 
 
 The consequence of this deceptive pattern case obviously links to **<u>privacy breach</u>** as cookies are often used for advertising to track user behavior on websites. 
 
