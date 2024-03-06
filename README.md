@@ -27,7 +27,7 @@ Clearly: Dark pattern is trick user into doing things that are **<u>not</u>** in
 
 ### Security Game Concept: Adversary, WatchDog and Challengers
 
-![overview](/Users/rioshi/Desktop/Decoding-Deceptive-Patterns/assets/overview.jpg)
+![overview](./assets/overview.jpg)
 
 * Adversary: The web or mobile software that containd Deceptive Pattern
 
@@ -92,7 +92,7 @@ In this section, let's take the screenshot below, a case of Privacy Zuckring, as
 
 
 
-![FA-PZ](/Users/rioshi/Desktop/Decoding-Deceptive-Patterns/assets/FA-PZ.jpg)
+![FA-PZ](./assets/FA-PZ.jpg)
 
 
 
@@ -104,7 +104,7 @@ The consequence of this deceptive pattern case obviously links to **<u>privacy b
 
 Fill all information in our spread sheet, the risk score for this Privacy Zuckering case is calculated as **<u>1.4</u>**, which is considered a low-level risk.
 
-![image-20240306121641640](/Users/rioshi/Desktop/Decoding-Deceptive-Patterns/assets/FA-PZ-Score.png)
+![image-20240306121641640](./assets/FA-PZ-Score.png)
 
 
 
