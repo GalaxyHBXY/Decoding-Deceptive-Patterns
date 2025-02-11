@@ -120,12 +120,11 @@ Fill all information in our spread sheet, the risk score for this Privacy Zucker
 
 If you find our work is beneficial, please cite our work:
 ```
-@misc{shi2024invisible,
-      title={The Invisible Game on the Internet: A Case Study of Decoding Deceptive Patterns}, 
-      author={Zewei Shi and Ruoxi Sun and Jieshan Chen and Jiamou Sun and Minhui Xue},
-      year={2024},
-      eprint={2402.03569},
-      archivePrefix={arXiv},
-      primaryClass={cs.CR}
+@inproceedings{shi2024invisible,
+  title={The invisible game on the Internet: A case study of decoding deceptive patterns},
+  author={Shi, Zewei and Sun, Ruoxi and Chen, Jieshan and Sun, Jiamou and Xue, Minhui},
+  booktitle={Companion Proceedings of the ACM Web Conference 2024},
+  pages={521--524},
+  year={2024}
 }
 ```
